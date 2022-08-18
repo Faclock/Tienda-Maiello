@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="stylesheet" href="css/estilo.css" />
-    <script
-      src="https://kit.fontawesome.com/29f51a6259.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <meta
       name="viewport"
       content="widrh=divece-whidth"
@@ -25,7 +22,7 @@
   </head>
 
   <body class="body">
-    <header>
+    <header data-aos="fade-down">
       <h1 class="titulo">Recetas Canabicas</h1>
       <nav>
         <ul class="menu">
@@ -39,7 +36,7 @@
 
     </header>
     <main class="main">
-      <div class="carrucel">
+      <div data-aos="zoom-in" class="carrucel">
         <!-- futuramente mostrara un carrucel de imagenes con recetas random -->
         <img src="img/slide_465.jpg" alt="imagen" />
       </div>
@@ -47,7 +44,7 @@
       <div class="populares">
         <h3 class="subTitulo">Recetas Populares</h3>
         <!-- furamente mostrara las recetas mas bisitadas -->
-        <div class="caja">
+        <div data-aos="fade-up-right" class="caja">
           <img
             src="img/Mantequilla-de-marihuana.jpg"
             alt="manteca de marihuana"
@@ -59,7 +56,7 @@
           </p>
         </div>
 
-        <div class="caja">
+        <div data-aos="fade-up-left" class="caja">
           <img
             src="img/Brownie-de-Marihuana-500x500.jpg"
             alt="brownie de marihuana"
@@ -72,7 +69,7 @@
           </p>
         </div>
 
-        <div class="caja">
+        <div data-aos="fade-up-right" class="caja">
           <img
             src="img/Receta-de-Galletas-de-Marihuana.jpg"
             alt="galletitas de marihuana"
@@ -86,7 +83,7 @@
           </p>
         </div>
 
-        <div class="caja">
+        <div data-aos="fade-up-left" class="caja">
           <img src="img/Limonada-de-cannabis.jpg" alt="limonada de cannabis" />
           <p>
             La limonada con infusión de cannabis es una receta ideal para
@@ -113,5 +110,13 @@
       </div>
       <h3>sitio web creado por facundo maiello</h3>
     </footer>
+    <script
+    src="https://kit.fontawesome.com/29f51a6259.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
